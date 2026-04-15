@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Node
+ser-frontend/node_modules/
+ser-frontend/dist/
+
+# macOS
+.DS_Store
+
+# MongoDB playground files
+*.mongodb.js

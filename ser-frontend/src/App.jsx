@@ -1,7 +1,7 @@
 import { useState, useRef, useCallback, useEffect } from 'react'
 import './App.css'
 
-const API = 'http://localhost:8000'
+const API = import.meta.env.VITE_API_URL || 'http://localhost:8000'
 
 const EMOTION_META = {
   Anger:     { emoji: '😠', color: '#e74c3c', bg: 'rgba(231,76,60,0.15)' },
